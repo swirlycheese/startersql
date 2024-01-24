@@ -1,0 +1,9 @@
+USE parts;
+
+select distinct PNAME, WEIGHT
+from part as p
+where colour = 'RED';
+
+select distinct SNAME
+from supplier as s
+where city = 'London';
